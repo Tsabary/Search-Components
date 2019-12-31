@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import WithResults from './withResults';
-
 import SingleResult from "../singleResult/Secondary";
 import { SecondarySearchTermContext } from "../../providers/SecondarySearchTermProvider";
 

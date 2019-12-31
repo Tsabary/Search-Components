@@ -1,5 +1,5 @@
-import React, { useContext } from "react";
 import "./styles.scss";
+import React, { useContext } from "react";
 import { SecondarySearchTermContext } from "../../providers/SecondarySearchTermProvider";
 
 const Result = ({ searchTerm, term }) => {

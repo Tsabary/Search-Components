@@ -1,6 +1,7 @@
+import "./styles.scss";
 import React from "react";
 import Global from "../styles/global";
-import "./styles.scss";
+
 
 import PrimarySearch from "./search/Primary";
 import PrimaryResults from "./results/Primary";

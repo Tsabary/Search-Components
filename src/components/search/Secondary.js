@@ -1,8 +1,8 @@
+import "./styles.scss";
 import React from "react";
 import { SecondarySearchTermContext } from "../../providers/SecondarySearchTermProvider";
 import WithFunctions from "./withFunctions";
 
-import "./styles.scss";
 
 const SecondarySearch = props => {
   return (
