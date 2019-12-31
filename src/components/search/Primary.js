@@ -1,10 +1,13 @@
 import "./styles.scss";
 import React from "react";
 import { PrimarySearchTermContext } from "../../providers/PrimarySearchTermProvider";
-import WithFunctions from './withFunctions';
-
+import WithFunctions from "./withFunctions";
 
 const PrimarySearch = props => {
+  const handleClick = () => {
+    props.setTempSearchTerm("");
+    props.setCurrentSearchTerm("");
+  };
 
   return (
     <div className="search">
@@ -19,7 +22,7 @@ const PrimarySearch = props => {
       />
       <svg
         className="search__icon search__icon--clear"
-        onMouseDown={() => props.setCurrentSearchTerm("")}
+        onMouseDown={handleClick}
       >
         <use xlinkHref="./sprite.svg#icon-cross"></use>
       </svg>
