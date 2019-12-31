@@ -1,0 +1,27 @@
+.single-result {
+  display: flex;
+  width: 100%;
+  padding: .8rem;
+  margin-left: 1.2rem;
+  font-size: 1.4rem;
+  
+  &__term {
+    font-weight: bold;
+  }
+  &__non-term {
+    font-weight: normal;
+  }
+  &__result-count {
+    margin-left: .8rem;
+    color: grey;
+  }
+  &__choose{
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-right: .6rem;
+    fill: lightgray;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}
